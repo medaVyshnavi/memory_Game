@@ -1,0 +1,89 @@
+.numberDiv {
+  border-radius: 50%;
+  text-align: center;
+  position: relative;
+  transform-style: preserve-3d;
+  transition: all 600ms;
+  z-index: 20;
+  cursor: pointer;
+}
+
+.numberDiv_small {
+  width: 70px;
+  height: 70px;
+}
+
+.numberDiv_large {
+  width: 50px;
+  height: 50px;
+}
+
+.memory_wrapper {
+  display: grid;
+  justify-self: center;
+  align-self: center;
+  place-items: center;
+  justify-content: center;
+  margin: 0 auto;
+}
+
+.memory_wrapper_small {
+  grid-template-columns: repeat(4, 1fr);
+  height: 340px;
+  width: 400px;
+}
+
+.memory_wrapper_large {
+  grid-template-columns: repeat(6, 1fr);
+  height: 350px;
+  width: 460px;
+}
+
+.numberDiv p {
+  position: absolute;
+  text-align: center;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+
+.numberDiv .memory_card_back {
+  -webkit-transform: rotateY(180deg);
+  transform: rotateY(180deg);
+  background-color: #bcced9;
+  color: #fcfcfc;
+  border-radius: 50%;
+}
+
+.memory_card_front {
+  background-color: #304859;
+  border-radius: 50%;
+}
+
+.memory_card_front:hover{
+  background-color: #6395B8;
+}
+
+.memory_card_back_small {
+  padding-top: 0.6rem;
+  font-weight: 900;
+  font-size: 40px;
+}
+
+.memory_card_back_large {
+  padding-top: 0.4rem;
+  font-weight: 900;
+  font-size: 30px;
+}
+
+.selectedCard {
+  transform: rotateY(0deg) !important;
+  background-color: #fda214 !important;
+}
+
+.matchedCard {
+  transform: rotateY(0deg) !important;
+}

@@ -1,0 +1,85 @@
+.startGame_wrapper{
+    background-color: #152938;
+    width: 100vw;
+    height:100vh;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    align-items: center;
+}
+
+.startGame_wrapper button{
+    cursor: pointer;
+}
+
+.startGame_logo{
+    background-image: url('../../assets/logo_light.svg');
+    background-repeat: no-repeat;
+    width: 12%;
+    height: 4%;
+}
+
+.division p{
+    color:#7191A5;
+    font-size: 15px;
+    font-weight: 900;
+}
+
+.startGame_box{
+    background-color: #fff;
+    width: 470px;
+    padding: 1rem 3rem;
+    border-radius: 0.5rem;
+}
+
+.option button{
+    border-radius:2rem;
+    padding: 0.5rem 2.4rem;
+    border: none;
+    background-color: #BCCED9;
+    color: #fcfcfc;
+    font-weight: 900;
+}
+
+.option button:hover{
+    background-color: #6395B8;
+}
+
+.option{
+    margin: 1rem 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.theme_option button{
+    padding: 0.7rem 4rem;
+}
+
+.grid_option button {
+    padding: 0.7rem 4.6rem;
+}
+
+.division{
+    margin:1rem 0;
+}
+
+.startgame_button{
+    background-color: #FDA214;
+    color: #fcfcfc;
+    border: none;
+    padding: 0.7rem 8.8rem;
+    border-radius: 2rem;
+    font-size: 17px;
+    font-weight: 700;
+    margin: 0.5rem 0;
+}
+
+.startgame_button:hover{
+    background-color: #FFB84A;
+}
+
+.selected_option{
+    background-color: #304859 !important;
+    color: #fcfcfc !important;
+}

@@ -1,0 +1,59 @@
+.solo{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 5rem 26rem 0;
+}
+
+#footer_bold{
+    font-weight: 900;
+    font-size: 25px;
+}
+
+.timer, .moves p{
+    color: #7191A5;
+    font-size: 18px;
+}
+
+.moves, .timer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color:#DFE7EC;
+    width: 180px;
+    height: 60px;
+    padding: 0.5rem 1rem;
+    border-radius: 0.5rem;
+}
+
+.team{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 4rem 13rem 0;
+}
+
+.noOfPairs{
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.players{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    border-radius: 0.4rem;
+    width: 190px;
+    font-weight:900
+}
+
+.unselected_player{
+    background-color: #DFE7EC;
+    color:#7191A5;
+}
+
+.player_turn{
+    background-color: #FDA214;
+    color: #FCFCFC;
+}

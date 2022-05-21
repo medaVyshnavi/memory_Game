@@ -1,0 +1,145 @@
+.overlay_wrapper {
+  background: rgba(0, 0, 0, 0.6);
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.overlay_body {
+  text-align: center;
+}
+
+.overlay_box_solo {
+  background-color: #fff;
+  color: #7191a5;
+  text-align: center;
+  width: 550px;
+  height: 360px;
+  padding: 2rem 0;
+  border-radius: 1rem;
+}
+
+.overlay_box_team {
+  width: 595px;
+  height: 540px;
+  background-color: #fff;
+  color: #7191a5;
+  text-align: center;
+  padding: 2rem 0;
+  border-radius: 1rem;
+}
+
+.overlay_header {
+  color: #7191a5;
+}
+.overlay_header h1 {
+  margin-bottom: 0.7rem;
+  color: #152938;
+}
+
+.overlay_header p {
+  margin-bottom: 1.3rem;
+  font-weight: 900;
+}
+
+.overlay_result_buttons {
+  margin: 2rem 0 0;
+}
+
+.overlay_result_buttons button {
+  border-radius: 2rem;
+  padding: 0.7rem 2rem;
+  border: none;
+  background-color: #dfe7ec;
+  color: #304859;
+  font-weight: 900;
+  margin: 0 1rem;
+  cursor: pointer;
+}
+
+.overlay_result_buttons button:hover{
+  background-color: #6395B8;
+  color:#fcfcfc
+}
+
+#overlay_restart {
+  background-color: #fda214;
+  color: #fcfcfc;
+  padding: 0.7rem 5rem;
+}
+
+#overlay_restart:hover{
+  background-color: #FFB84A;
+}
+
+.overlay_result_moves,
+.overlay_result_time {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #dfe7ec;
+  margin: 1rem auto;
+  width: 444px;
+  height: 50px;
+  border-radius: 0.7rem;
+  padding: 0 2rem;
+}
+
+.overlay_result_moves p,
+.overlay_result_time p {
+  color: #7191a5;
+}
+
+.overlay_result_moves h2,
+.overlay_result_time h2 {
+  color: #304859;
+}
+
+.overlay_result {
+  padding: 1rem;
+  border-radius: 0.7rem;
+  margin: 1rem 4rem;
+}
+
+.overlay_player_list {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.5rem 1rem;
+  margin: 0 0 1rem 0;
+  border-radius: 0.5rem;
+}
+
+.non_winners {
+  background-color: #dfe7ec;
+  color: #7191a5;
+}
+
+.overlay_player_list p:last-child {
+  color: #304859;
+  font-weight: 900;
+  font-size: 32px;
+}
+
+.overlay_player_list p:first-child {
+  color: #7191a5;
+  font-weight: 900;
+  font-size: 18px;
+}
+
+.winner {
+  background-color: #152938;
+  color: #fcfcfc;
+}
+
+.winner p:last-child,
+.winner p:first-child {
+  color: #fcfcfc;
+}
+
+/* 
+.team_button button{
+  background-color: #FDA214;
+  color: #fcfcfc;
+} */

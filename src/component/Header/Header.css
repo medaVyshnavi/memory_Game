@@ -1,0 +1,47 @@
+.header_wrapper{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    margin: 3rem 10rem 3rem 18rem;
+}
+
+.header_logo{
+    background-image:url('../../assets/logo_dark.svg');
+    width: 100%;
+    background-repeat: no-repeat;
+}
+
+.header_buttons{
+    display: flex;
+    width: 56%;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.header_buttons button{
+    border:none;
+    padding: 0.7rem 2rem;
+    border-radius: 2rem;
+    margin: 0 1rem;
+    font-weight: 600;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.restart{
+    background-color: #FDA214;
+    color:#fff;
+}
+
+.restart:hover{
+    background-color: #FFB84A;
+}
+
+.new_game{
+    color:#304859;
+    background-color: #DFE7EC;
+}
+
+.new_game:hover{
+    background-color: #6395B8;
+}
